@@ -1,4 +1,3 @@
-# analise-exploratoria-bolsa-de-valores
 # Aula 01: Análise Exploratória com Google Sheets
 
 Nesta aula, exploramos o uso do Google Sheets para análise exploratória de dados da bolsa de valores. Utilizamos diversas fórmulas como VLOOKUP e SUMIF, além de interagir com o ChatGPT para gerar insights adicionais.
