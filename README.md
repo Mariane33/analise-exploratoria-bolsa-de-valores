@@ -22,7 +22,3 @@ Além dos objetivos principais, os seguintes desafios foram propostos:
 - **Desafio 1**: Para calcular as variações percentuais, utilizamos as fórmulas do Google Sheets para realizar os cálculos com base nos dados fornecidos.
 - **Desafio 2**: Interagimos com o ChatGPT para obter as faixas de idade e as integramos ao nosso projeto.
 - **Desafio 3**: Utilizamos o ChatGPT para gerar a fórmula IF para as faixas de idade, facilitando o processo de análise e categorização dos dados.
-
-## Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorar este projeto.
