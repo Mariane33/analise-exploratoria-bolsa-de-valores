@@ -24,14 +24,6 @@ Além dos objetivos principais, os seguintes desafios foram propostos:
 - **Desafio 2**: Interagimos com o ChatGPT para obter as faixas de idade e as integramos ao nosso projeto.
 - **Desafio 3**: Utilizamos o ChatGPT para gerar a fórmula IF para as faixas de idade, facilitando o processo de análise e categorização dos dados.
 
-## Executando o Código
-
-Para executar o código Python utilizado durante esta aula, siga estas etapas:
-
-1. Clone o repositório para o seu ambiente local.
-2. Abra o arquivo `aula_01_analise_exploratoria.py` em um editor de texto ou ambiente de desenvolvimento Python.
-3. Execute o código em um ambiente Python adequado.
-
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorar este projeto.
