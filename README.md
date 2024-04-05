@@ -118,3 +118,23 @@ Além dos objetivos principais, o seguinte desafio foi proposto:
 - Instale as bibliotecas necessárias, como yfinance e mplfinance, utilizando o gerenciador de pacotes do Python (pip).
 - Copie e cole o código fornecido durante a aula ou crie seu próprio código.
 Execute as células do seu ambiente de desenvolvimento para criar os gráficos de velas e gráficos interativos.
+
+# Aula 05: Previsão de Séries Temporais de Ações e Carreiras no Mercado de Dados
+
+Nesta última aula, foi introduzido o Machine Learning com Prophet para além de todas as ferramentas já aprendidas durante a Imersão. Também conhecemos um pouco mais sobre as carreiras do mercado de dados.
+
+## Objetivos
+
+- Ter uma introdução ao Machine Learning.
+- Revisar ferramentas aprendidas durante a Imersão.
+- Conhecer mais sobre as carreiras no mercado de dados.
+
+## Aprendizados e Insights
+
+- Durante esta aula, foram apresentados conceitos de Machine Learning com Prophet e informações sobre carreiras no mercado de dados.
+- Aprendemos sobre a aplicação de Machine Learning em previsão de séries temporais com Prophet, expandindo nosso conhecimento além das ferramentas básicas.
+- Além disso, conhecemos mais sobre as diversas carreiras disponíveis no mercado de dados, fornecendo insights valiosos para quem está interessado em seguir uma carreira nessa área.
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorar este projeto.
