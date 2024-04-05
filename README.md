@@ -48,10 +48,39 @@ Além dos objetivos principais, os seguintes desafios foram propostos:
 - **Desafio 2**: Para o segundo gráfico de barras, contamos o número de empresas em cada faixa etária e plotamos os resultados.
 - **Desafio 3**: Exploramos diferentes tipos de gráficos, como gráficos de linha, gráficos de pizza, entre outros, para visualizar os dados de maneira variada e compreender melhor os insights.
 
-## Executando o Código
+# Aula 03: Manipulação de Dados e Criação de Gráficos com bibliotecas Python
 
-Para executar o código utilizado durante esta aula no Google Colab, siga estas etapas:
+Nesta aula, continuamos a manipulação de dados com Pandas no Google Colab, desta vez transformando a planilha de ações. Além disso, começamos a construir gráficos com a biblioteca Plotly.
 
-1. Abra o Google Colab e crie um novo notebook.
-2. Copie e cole o código fornecido durante a aula ou crie seu próprio código.
-3. Execute as células do notebook para gerar tabelas e gráficos.
+## Objetivos
+
+- Manipular dados com Pandas.
+- Transformar a planilha de ações com funções do Pandas.
+- Construir gráficos com a biblioteca Plotly Express.
+- Usar o Chat GPT durante o código.
+
+## Desafios desta aula
+
+Além dos objetivos principais, os seguintes desafios foram propostos:
+
+1. Pesquisar com a documentação da biblioteca Plotly como mudar a formatação dos números do gráfico de barras.
+2. Fazer o gráfico de pizza no df_analise_segmento com a mesma biblioteca Plotly.
+3. Fazer o GroupBy da categoria de idades e gerar o gráfico de barras.
+
+## Soluções Encontradas
+
+- **Desafio 1**: Para mudar a formatação dos números do gráfico de barras, consultei a documentação da biblioteca Plotly: (https://plotly.com/python/bar-charts/).
+- **Desafio 2**: Para fazer o gráfico de pizza no df_analise_segmento com a biblioteca Plotly, utilizei o seguinte código:
+  ```python
+  import plotly.express as px
+
+  fig = px.pie(df_analise_segmento, names='Segmento', values='Variacao_rs', title='Variação Reais por Segmento')
+  fig.show()
+- **Desafio 3**: Para fazer o GroupBy da categoria de idades e gerar o gráfico de barras, utilizei o seguinte código:
+python
+
+df_analise_cat_idade = df_principal.groupby('Cat_idade')['Variacao_rs'].sum().reset_index()
+
+fig = px.bar(df_analise_cat_idade, x='Cat_idade', y='Variacao_rs', text='Variacao_rs', title='Variação Reais por Categoria de Idade')
+fig.show()
+
