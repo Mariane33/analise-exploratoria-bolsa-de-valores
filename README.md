@@ -84,3 +84,37 @@ df_analise_cat_idade = df_principal.groupby('Cat_idade')['Variacao_rs'].sum().re
 fig = px.bar(df_analise_cat_idade, x='Cat_idade', y='Variacao_rs', text='Variacao_rs', title='Variação Reais por Categoria de Idade')
 fig.show()
 
+# Aula 04: Análises Avançadas de Ações e Gráficos de Velas
+
+Nesta aula, tive a oportunidade de construir gráficos de velas com Matplotlib e realizar ações mais avançadas, como gráficos interativos com Plotly.
+
+## Objetivos
+
+- Criar gráficos de velas.
+- Aprender a fazer gráficos interativos com Plotly.
+
+## Desafios desta aula
+
+Além dos objetivos principais, o seguinte desafio foi proposto:
+
+- Pesquisar o que é uma tupla em Python.
+- Buscar a ação da Apple e recriar o gráfico de Candlestick usando a biblioteca MPLFinance.
+
+## Soluções Encontradas
+
+- **Desafio 1**: Uma tupla em Python é uma estrutura de dados semelhante a uma lista, mas é imutável, ou seja, não pode ser alterada após a sua criação. Ela é definida utilizando parênteses em vez de colchetes, por exemplo: `tupla = (1, 2, 3)`.
+- **Desafio 2**: Para buscar a ação da Apple e recriar o gráfico de Candlestick usando a biblioteca MPLFinance, utilizei o seguinte código:
+
+  import yfinance as yf
+  import mplfinance as mpf
+
+  dados = yf.download('AAPL', start='2023-01-01', end='2023-12-31')
+  mpf.plot(dados.head(30), type='candle', figsize=(16, 8), volume=True, mav=(7, 14))
+
+## Executando o Código
+
+- Para executar o código utilizado durante esta aula no seu ambiente de desenvolvimento, siga estas etapas:
+
+- Instale as bibliotecas necessárias, como yfinance e mplfinance, utilizando o gerenciador de pacotes do Python (pip).
+- Copie e cole o código fornecido durante a aula ou crie seu próprio código.
+Execute as células do seu ambiente de desenvolvimento para criar os gráficos de velas e gráficos interativos.
