@@ -72,7 +72,7 @@ Além dos objetivos principais, os seguintes desafios foram propostos:
 - **Desafio 1**: Para mudar a formatação dos números do gráfico de barras, consultei a documentação da biblioteca Plotly: (https://plotly.com/python/bar-charts/).
 - **Desafio 2**: Para fazer o gráfico de pizza no df_analise_segmento com a biblioteca Plotly, utilizei o seguinte código:
   ```python
-  import plotly.express as px
+ import plotly.express as px
 
   fig = px.pie(df_analise_segmento, names='Segmento', values='Variacao_rs', title='Variação Reais por Segmento')
   fig.show()
